@@ -1,0 +1,229 @@
+/* font-family: 'Clash Display', sans-serif; */
+
+* {
+    margin: 0;
+}
+
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #22222400;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #b7b7b7ff;
+    border-radius: 5px;
+
+}
+
+body {
+    background-color: #222224;
+    cursor: url("asset/star.svg"), default;
+
+
+}
+
+/* .cursor {
+position: fixed;
+background-image: url("asset/star.svg");
+} */
+
+.home {
+    display: block;
+    height: 100vh;
+}
+
+.nav {
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #b7b7b7ff;
+}
+
+.video {
+    display: flex;
+    background-image: url("asset/sp_cloth-4k.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    border-radius: 25px;
+    position: relative;
+
+}
+
+
+a.my-button {
+    right: 10px;
+    top: 10px;
+    position: absolute;
+    font-family: 'Clash Display', sans-serif;
+    background-color: #b7b7b7;
+    color: #262626;
+    font-size: 23px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 15px 15px;
+    border: 2px solid #00000000;
+    border-radius: 15px;
+}
+
+.my-button:hover {
+    background-color: #262626;
+    color: #b7b7b7;
+    border: 2px solid #b7b7b7;
+}
+
+.bar {
+    display: flex;
+    position: absolute;
+    height: 3px;
+    width: 110px;
+    top: 40px;
+    transform-origin: center left;
+    right: 35px;
+    background-color: #8c8c73ff;
+    transform: scaleX(0);
+}
+
+.my-button:hover+.bar {
+    pointer-events: none;
+    transition: transform 300ms;
+    transform: scaleX(1);
+
+}
+
+a.my-button:active {
+    transform: scale(0.99);
+}
+
+h1 {
+    top: 80px;
+    left: 5px;
+    position: absolute;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    font-size: 250px;
+    line-height: 250px;
+    color: #b7b7b7ff;
+    /* text-shadow: 5px 5px 10px #404040; */
+    margin: 25px;
+}
+
+.lien-git {
+    display: flex;
+    overflow: hidden;
+    width: 90%;
+    margin: auto;
+}
+
+.git {
+    display: inline-block;
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 200;
+    font-size: 80px;
+    color: #b7b7b7ff;
+    white-space: nowrap;
+    margin: 10px;
+    animation: defilement-rtl 7s infinite linear;
+}
+
+@keyframes defilement-rtl {
+    0% {
+        transform: translate3d(-100%, 0, 0);
+    }
+
+    100% {
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.about {
+    display: flex;
+    height: 100vh;
+}
+
+.windows-about {
+    display: block;
+    background-color: #b7b7b7ff;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 90vw;
+    margin: auto;
+    border-radius: 25px;
+    /* background-color: red; */
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.about-me {
+    display: block;
+    /* background-color: aqua; */
+    text-align: center;
+
+}
+
+h2 {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 700;
+    font-size: 150px;
+    /* text-shadow: 5px 5px 10px #404040; */
+    color: #262626;
+    margin: 25px;
+}
+
+.img {
+    /* background-color: aquamarine; */
+    margin: 10px;
+}
+
+img {
+    height: 600px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+.txt-img {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: aqua; */
+    width: 100%;
+
+
+}
+
+.txt {
+    margin: 10px;
+    width: 900px;
+    /* background-color: #262626; */
+}
+
+h3 {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 600;
+    font-size: 45px;
+    color: #262626;
+    /* text-shadow: 5px 5px 10px #404040; */
+    margin: 25px;
+}
+
+P {
+    font-family: 'Clash Display', sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #262626;
+    margin: 25px;
+}
+
+.windows-skill {}
