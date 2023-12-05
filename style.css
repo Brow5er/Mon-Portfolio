@@ -116,7 +116,6 @@ h1 {
     font-size: 250px;
     line-height: 250px;
     color: #b7b7b7ff;
-    /* text-shadow: 5px 5px 10px #404040; */
     margin: 25px;
 }
 
@@ -155,13 +154,11 @@ h1 {
 
 .windows-about {
     display: block;
-    background-color: #b7b7b7ff;
     background-repeat: no-repeat;
     height: 90vh;
     width: 90vw;
     margin: auto;
     border-radius: 25px;
-    /* background-color: red; */
     justify-content: center;
     align-items: flex-start;
 
@@ -169,7 +166,6 @@ h1 {
 
 .about-me {
     display: block;
-    /* background-color: aqua; */
     text-align: center;
 
 }
@@ -178,13 +174,11 @@ h2 {
     font-family: 'Clash Display', sans-serif;
     font-weight: 700;
     font-size: 150px;
-    /* text-shadow: 5px 5px 10px #404040; */
-    color: #262626;
+    color: #b7b7b7ff;
     margin: 25px;
 }
 
 .img {
-    /* background-color: aquamarine; */
     margin: 10px;
 }
 
@@ -197,7 +191,6 @@ img {
 .txt-img {
     display: flex;
     justify-content: space-evenly;
-    /* background-color: aqua; */
     width: 100%;
 
 
@@ -206,15 +199,13 @@ img {
 .txt {
     margin: 10px;
     width: 900px;
-    /* background-color: #262626; */
 }
 
 h3 {
     font-family: 'Clash Display', sans-serif;
     font-weight: 600;
     font-size: 45px;
-    color: #262626;
-    /* text-shadow: 5px 5px 10px #404040; */
+    color: #b7b7b7ff;
     margin: 25px;
 }
 
@@ -222,8 +213,8 @@ P {
     font-family: 'Clash Display', sans-serif;
     font-weight: 400;
     font-size: 30px;
-    color: #262626;
+    color: #b7b7b7ff;
     margin: 25px;
 }
 
-.windows-skill {}
+/* .windows-skill {} */
